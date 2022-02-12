@@ -7,9 +7,9 @@ CreateThread(function()
             QBCore.Functions.TriggerCallback('qb-gps:server:GetItem', function(hasItem)
                 if hasItem then
                     DisplayRadar(true)
-				else
-					DisplayRadar(false)
-				end
+		else
+	            DisplayRadar(false)
+		end
             end, "gps")
         end
     end
